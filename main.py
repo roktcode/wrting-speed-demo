@@ -80,7 +80,7 @@ def main(stdscr):
     while True:
         wpm_test(stdscr)
         stdscr.addstr(
-            2, 0, "You completed the test! Pres any key to continue...")
+            2, 0, "You completed the test! Press any key to continue...")
         key = stdscr.getkey()
 
         if ord(key) == 27:
